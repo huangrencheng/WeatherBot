@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkfFU6PSqL0O5a99WuvcNKQAAAAACAAAAAAAQZgAAAAEAACAAAADymgALVgHU33lOMvZW1EcBvwx9tHKdveWycuU9RihW2wAAAAAOgAAAAAIAACAAAABPik8/ocKWJNIhIv6MPfCP8dr8d5XL4UbG/IGQ0fcDCIAAAAAD1PplMkh3EwrRb1ZsJJvhV9wQvG3M1UX+vNNSUi1tmyqqFOKY1PCLKiqAW5CRktTHJCAR1jAN4RKa+AYBbX5jc6BZfRGUo8yeO6SNQuONjcrYZt3kIw/3xOt2FKNM2n7efuac2IeNgOn19O6uJNvC+GoPwgIOlYPmrljoCAwFTUAAAADyQYXoiz4ZRebHv437CXOHJksI4+OVY+NyKBbrkDk+mOmvDPo2lTOPpvS9ChGxjrB65o4KRjAs8MFxiE/W2LDt</EncryptedPassword>
+    <_PublishTargetUrl>ftp://cnws-prod-bjb-005.ftp.chinacloudsites.chinacloudapi.cn/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/13/2019 17:00:10</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/25/2019 23:55:34</publishTime>
+    </File>
+    <File Include="Cards/welcomeCard.json">
+      <publishTime>06/10/2019 14:27:09</publishTime>
+    </File>
+    <File Include="CognitiveModels/FlightBooking.json">
+      <publishTime>05/26/2019 10:16:30</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/template-with-new-rg.json">
+      <publishTime>05/13/2019 17:00:11</publishTime>
+    </File>
+    <File Include="DeploymentTemplates/template-with-preexisting-rg.json">
+      <publishTime>05/13/2019 17:00:11</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.CognitiveServices.Language.LUIS.dll">
+      <publishTime>02/06/2019 10:46:00</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.AI.Luis.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Dialogs.dll">
+      <publishTime>05/03/2019 23:34:58</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Integration.AspNet.Core.dll">
+      <publishTime>05/03/2019 23:34:58</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Configuration.dll">
+      <publishTime>05/03/2019 23:34:56</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Connector.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Schema.dll">
+      <publishTime>05/03/2019 23:34:50</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>01/11/2019 18:50:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>02/08/2018 22:16:40</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>02/08/2018 22:17:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>02/08/2018 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>02/08/2018 22:16:44</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Definitions.dll">
+      <publishTime>11/12/2018 08:59:38</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.Choice.dll">
+      <publishTime>11/12/2018 08:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll">
+      <publishTime>02/01/2019 08:34:24</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.DateTime.dll">
+      <publishTime>11/12/2018 08:59:34</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.dll">
+      <publishTime>11/12/2018 08:59:38</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.Number.dll">
+      <publishTime>11/12/2018 08:59:36</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.NumberWithUnit.dll">
+      <publishTime>11/12/2018 08:59:36</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.Azure.dll">
+      <publishTime>01/25/2019 00:02:58</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.dll">
+      <publishTime>02/27/2019 20:49:20</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>02/08/2018 22:16:52</publishTime>
+    </File>
+    <File Include="WeatherQuery.deps.json">
+      <publishTime>06/11/2019 08:59:01</publishTime>
+    </File>
+    <File Include="WeatherQuery.dll">
+      <publishTime>06/11/2019 08:56:37</publishTime>
+    </File>
+    <File Include="WeatherQuery.pdb">
+      <publishTime>06/11/2019 08:56:37</publishTime>
+    </File>
+    <File Include="WeatherQuery.runtimeconfig.json">
+      <publishTime>06/11/2019 08:59:01</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/11/2019 08:59:01</publishTime>
+    </File>
+    <File Include="wwwroot/default.htm">
+      <publishTime>06/09/2019 16:22:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\appsettings.json
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\WeatherQuery.deps.json
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\WeatherQuery.runtimeconfig.json
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\WeatherQuery.runtimeconfig.dev.json
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\WeatherQuery.dll
+D:\学习资料\c#\WeatherBot\CoreBot1\bin\Release\netcoreapp2.1\WeatherQuery.pdb
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.csproj.CoreCompileInputs.cache
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.RazorAssemblyInfo.cache
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.RazorAssemblyInfo.cs
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.AssemblyInfoInputs.cache
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.AssemblyInfo.cs
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.RazorTargetAssemblyInfo.cache
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.dll
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.pdb
+D:\学习资料\c#\WeatherBot\CoreBot1\obj\Release\netcoreapp2.1\WeatherQuery.csprojAssemblyReference.cache
