@@ -1,0 +1,97 @@
+{
+
+  "query": "北京今天天气如何",
+
+  "topScoringIntent": {
+
+    "intent": "AirQuery",
+
+    "score": 0.4459576
+
+  },
+
+  "intents": [
+
+    {
+
+      "intent": "AirQuery",
+
+      "score": 0.4459576
+
+    },
+
+    {
+
+      "intent": "WeatherQuery",
+
+      "score": 0.263505131
+
+    },
+
+    {
+
+      "intent": "RainQuery",
+
+      "score": 0.0161564443
+
+    },
+
+    {
+
+      "intent": "None",
+
+      "score": 0.003864664
+
+    }
+
+  ],
+
+  "entities": [
+
+    {
+
+      "entity": "北京",
+
+      "type": "location",
+
+      "startIndex": 0,
+
+      "endIndex": 1,
+
+      "score": 0.9515554
+
+    },
+
+    {
+
+      "entity": "今天",
+
+      "type": "builtin.datetimeV2.date",
+
+      "startIndex": 2,
+
+      "endIndex": 3,
+
+      "resolution": {
+
+        "values": [
+
+          {
+
+            "timex": "2019-05-25",
+
+            "type": "date",
+
+            "value": "2019-05-25"
+
+          }
+
+        ]
+
+      }
+
+    }
+
+  ]
+
+}

@@ -73,6 +73,7 @@ namespace WeatherQuery.Dialogs
             return await stepContext.BeginDialogAsync(nameof(DetailQueryDialog), QueryDetails, cancellationToken);
         }
 
+        //weather query request
         private async Task<DialogTurnResult> FinalStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             // If the child dialog ("") was cancelled or the user failed to confirm, the Result here will be null.
@@ -132,18 +133,19 @@ namespace WeatherQuery.Dialogs
 
                 Console.WriteLine("LUIS result: location " + loc + "; type " + date_type);
                 String url_root = "https://api.seniverse.com/v3/";
+                String pri_key = "SpNlNXG30FKAwvTPy";
                 //天气实况
-                String url_now = "weather/now.json?key=SgNbw9AuWO10-cJM2&location=";
+                String url_now = "weather/now.json?key=" + pri_key + "&location=";
                 String url_now2 = "&language=zh-Hans&unit=c";
                 //每日天气
-                String url_daily = "weather/daily.json?key=SgNbw9AuWO10-cJM2&location=";
+                String url_daily = "weather/daily.json?key=" + pri_key + "&location=";
                 String url_daily2 = "&language=zh-Hans&unit=c&start=";
                 String url_daily3 = "&days=";
                 //空气实况
-                String url_air_now = "air/now.json?key=SgNbw9AuWO10-cJM2&location=";
+                String url_air_now = "air/now.json?key=" + pri_key + "&location=";
                 String url_air_now2 = "&language=zh-Hans&scope=city";
                 //每日空气
-                String url_air_daily = "air/daily.json?key=SgNbw9AuWO10-cJM2&language=zh-Hans&location=";
+                String url_air_daily = "air/daily.json?key=" + pri_key + "&language=zh-Hans&location=";
                 String url_air_daily2 = "&days =";
                 
 

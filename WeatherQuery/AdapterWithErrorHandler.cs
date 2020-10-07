@@ -22,7 +22,7 @@ namespace WeatherQuery
                 logger.LogError($"Exception caught : {exception.Message}");
 
                 // Send a catch-all apology to the user.
-                await turnContext.SendActivityAsync("Sorry, it looks like something went wrong.");
+                await turnContext.SendActivityAsync("插叙错误，请更换查询地点");
 
                 if (conversationState != null)
                 {
